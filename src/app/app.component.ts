@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  
+  //variable declaration
+  title:string;
+  name:string;
+   
+   ngOnInit() {
+   this.title = 'Welcome to Angular Data Binding';
+   this.name ='One way Data Binding(interpolation)';
+     
+   }
 }
